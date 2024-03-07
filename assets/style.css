@@ -1,0 +1,125 @@
+header {
+  display: flex;
+  color: rgb(18, 28, 45);;
+  background: rgb(18, 28, 45);
+  width: 100%;
+  align-content: center;
+  position: fixed;
+  z-index: 10;
+  height: 70px;
+}
+
+header > nav {
+  background: rgb(18, 28, 45);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 1.25rem;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  font-size: 1.25rem;
+}
+
+header > nav span {
+  font-weight: 500;
+}
+
+header > nav aside {
+  color: rgb(200, 175, 240);
+  font-size: 1.25rem;
+}
+
+header > nav svg {
+  width: 1rem;
+  height: 1rem;
+}
+
+div.page-top {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  justify-content: flex-start;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgb(244, 244, 246);
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  color: #94979b;
+  background: rgb(18, 28, 45);
+  box-shadow: 0px 2px 6px 0px rgba(75, 86, 113, 0.2);
+  padding: 30px 0;
+  margin-top: 0rem;
+  margin-bottom: 0rem;
+  bottom: 0;
+  width: 100%;
+  background-position: right;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+footer .statement {
+  font-size: 65px;
+  font-style: italic;
+  line-height: 1.2;
+  text-align: center;
+}
+
+#twilio-logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#twilio-logo > a {
+  display: block;
+  width: 65px;
+  height: 65px;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+  box-sizing: content-box;
+}
+
+svg.icon {
+  display: inline-block;
+  width: 1rem;
+  height: 1rem;
+  vertical-align: -0.125rem;
+}
+
+svg.information {
+  color: rgb(96, 107, 133);
+}
+
+svg.close {
+  color: rgb(102, 106, 109);
+}
+
+svg.logo {
+  fill: white;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter var experimental", "Inter var", -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell,
+    "Helvetica Neue", sans-serif;
+  font-size: 16px;
+  line-height: 1.5rem;
+  color: rgb(18, 28, 45);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: rgb(244, 244, 246)!important;
+}
