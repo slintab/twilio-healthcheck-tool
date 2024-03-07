@@ -12,16 +12,16 @@ Say hello to the Twilio Health Check Tool, your new best friend for optimizing y
 4. Update the `.env.example` file with your Twilio account details and rename it to `.env`.
 5. Run the app via `twilio serverless:run`.
 
-That's it! Navigate to the `index.html` page to (by default at http://localhost:3000/index.html) to run your health checks.
+That's it! Navigate to the `index.html` page (by default at http://localhost:3000/index.html) to run your health checks.
 
-The tool is designed to be run locally, and it is not recommended to deploy it to Twilio Serverless, as some checks may take longer than the 10s Twilio Serverless execution limit, especially if you have a lot of resources on your account.
+The tool is designed to be run locally, and it is not recommended to deploy it to Twilio Serverless, as some checks may take longer than the 10s Twilio Serverless execution limit, especially if you have a lot of resources in your account.
 
 
 ## Checks
 
 ### Current checks
 
-Currently, the tool supports comparing your Twilio usage with the following best practices:
+Currently, the tool supports comparing your Twilio configuration with the following best practices:
 - Configure usage triggers
 - Use API keys instead of your auth token
 - Release unused phone numbers
