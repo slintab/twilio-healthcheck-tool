@@ -39,14 +39,13 @@ export default (props: SelectBarProps) => {
         checks: selectedChecks,
       }
     );
-
     const results = checkList.map((check) => {
       const result = resp.data.checks.find((result) => result.id === check.id);
       return result ? Object.assign(check, result) : check;
     });
-
     return results;
   };
+
   const handleRunChecks = async () => {
     if (!selectedChecks.length) {
       setComboboxError(true);
