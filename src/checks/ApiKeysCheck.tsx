@@ -22,7 +22,6 @@ class ApiKeysCheck extends Check {
 
     try {
       const keys = await twilioClient.keys.list({ limit: 2 });
-      console.log(keys);
       for (const key of keys) {
         if (!key.friendlyName.startsWith("twilio-cli")) {
           result.result = "You have API keys configured.";
