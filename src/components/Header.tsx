@@ -53,7 +53,6 @@ export default (props: SelectBarProps) => {
       handleClose();
       return;
     }
-
     handleClose();
     setComboboxError(false);
     setComboboxHelpText(defaultHelpText);
