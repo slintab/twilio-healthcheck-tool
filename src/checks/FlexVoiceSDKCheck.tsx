@@ -47,6 +47,6 @@ export default new FlexVoiceSDKCheck(
   "Voice SDK options",
   "Consider overriding the default Voice SDK options",
   "Flex",
-  "We recommend overriding some of the default voice SDK options in Flex, including setting the default codec to Opus and enabling automatic media reconnection.",
+  "Consider setting the default codec to Opus and enabling automatic media reconnection.",
   "This check uses the Flex Configuration API to check if the recommended voice SDK configuration is set."
 );
