@@ -1,6 +1,6 @@
 # Twilio Health Check Tool
 
-Say hello to the Twilio Health Check Tool, your new best friend for optimizing your Twilio usage! It gives you recommendations and helps you scan your Twilio resources and compare their configuration with best practices.
+The Twilio Health Check Tool enables you to scan your Twilio resources and compare their configuration with best practices.
 
 
 ## Usage
